@@ -4848,6 +4848,8 @@
       <input type="submit" value="Send" />
       </div>
   </form>
+
+  <Button onClick="resetAll()">Clear Form</Button>
 </div>
 
 </body>
@@ -4921,6 +4923,8 @@
 
       var formB=document.getElementsByTagName("form")[1];
       formB.reset();
+
+      document.getElementById("orderDetails").innerHTML="";
     }
 
 // Get the element with id="defaultOpen" and click on it
